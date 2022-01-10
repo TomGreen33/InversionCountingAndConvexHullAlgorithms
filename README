@@ -1,0 +1,30 @@
+This program was my final submission for assignment 2 of my computer algorithms course at the university
+of Guelph, CIS 3490. I took this course during the winter of 2021 alongside my full time job as a
+technical support analyst.
+
+Options 1 through 4 are used to count the number of inversions in an array of
+numbers. An inversion measures how much a sequence is out of order when compared to the same set
+that is organized in ascending order. For instance, the sequence {1, 2, 3, 4} has zero inversions, {1, 3, 2, 4}
+has one inversion (3, 2), and {1, 4, 3, 2, 5} has 3 inversions ((4, 3), (3, 2), (4, 2)).
+
+Options 5 though 8 are used to return the convex hull of a set of points. In essence, a convex hull is the subset
+of a set of points. This subset contains the least number of points needed to fully encapsulate the overall set of
+points. In other words, suppose that nails on a board are used to represent a set of points. If one were to stretch an elastic band
+around all of the nails and let go, the nails in which hold the elastic band's final position would represent
+the points in the convex hull. The "smart" algorithm for this problem (option 7 and 8) utilizes the same idea as that of the
+quick sort algorithm.
+
+See design.pdf for the efficiency analysis of each algorithm
+
+The following section was the original read me file that was part of the assignment's submission. It contains information on how to compile the
+program:
+
+Name: Thomas Green
+ID: 1048389
+Assignment #: 2
+
+Please insert the test files into the folder.
+Use make to compile the program.
+Use ./main <file name> to run the program, where <file name> is
+the name of the file with which you would like to test to program with.
+Use make clean to clear the directory of any object files.
